@@ -50,7 +50,7 @@ void aplicarHabilidade(int tab[TAM][TAM], int ability[TAM_H][TAM_H], int origRow
 
 
 void imprimirTabuleiro(int tab[TAM][TAM]) {
-    printf("*** Tabuleiro Batalha Naval - Nível Mestre ***\n\n");
+    printf("** Tabuleiro Batalha Naval - Nível Mestre **\n\n");
     for (int i = 0; i < TAM; i++) {
         for (int j = 0; j < TAM; j++) {
             printf("%d ", tab[i][j]);
